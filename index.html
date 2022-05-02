@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Daniel Riverol</title>
+  </head>
+  <body>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Riverol</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>Inicio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Perfil
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i>Educación
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experiencia
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#intereses" class="nav__link">
+                <i class='bx bxs-happy-alt nav__icon'></i>Intereses
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main bd-container">
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="./img/perfil.png"
+                  alt="Daniel Riverol"
+                  class="home__img"
+                />
+                <h1 class="home__title">Riverol <b>Daniel</b></h1>
+                <h3 class="home__profession">
+                  Desarrollador / Mentor Programación
+                </h3>
+                <div>
+                  <a download="CV_Daniel_Riverol.pdf" href="./pdf/CV_Daniel_Riverol.pdf" class="home__button-movil" id="resume-button-mobile"
+                    >Descargar</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bxs-envelope home__icon"></i
+                  >riverol.sdaniel@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bxs-phone home__icon"></i>(+54 9) 11 5760-1577
+                </span>
+              </div>
+            </div>
+            <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+            <i class='bx bx-download generate-pdf' title="Generate" id="resume-button"></i>
+        </section>
+
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social-container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/danielriverol/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social-icon"></i>/danielriverol
+              </a>
+              <a
+                href="https://github.com/DanielRiverol"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social-icon"></i>/DanielRiverol
+              </a>
+            </div>
+          </section>
+
+          <section class="profile section" id="profile">
+            <h2 class="section-title">PERFIL</h2>
+            <p class="profile-description">
+              Soy un desarrollador con 6 años de experiencia. <br>Mis compañeros me
+              conocen como un profesional creativo, responsable y dedicado. <br>Disfruto
+              trabajar en equipo y puedo encarar múltiples tareas sin perder de
+              vista mis objetivos. <br />Estoy cursando la carrera de Analista
+              de Sistemas (3er año - 21 materias aprobadas) y el curso de Project Manager. <br />Actualmente me desempeño como Content Leader Node en
+              Alkemy.org.
+            </p>
+          </section>
+
+          <section class="education section" id="education">
+            <h2 class="section-title">Educación</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Analista de Sistemas</h3>
+                  <span class="education__studies"
+                    >Instituto de Formación Técnica Superior Nº4</span
+                  >
+                  <span class="education__year">2019 - Actualidad</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Project Manager</h3>
+                  <span class="education__studies">DigitalMind</span>
+                  <span class="education__year">Abril 2022 - Actualidad</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="skills section" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <div class="skills__content bd-grid">
+                  <ul class="skills__data">
+                      <li class="skills__name">
+                          <span class="skills__circle"></span> HTML
+                      </li>
+                      <li class="skills__name">
+                          <span class="skills__circle"></span> CSS
+                      </li>
+                      <li class="skills__name">
+                          <span class="skills__circle"></span> JAVASCRIPT
+                      </li>
+                      <li class="skills__name">
+                        <span class="skills__circle"></span> NODE JS
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> REACT
+                    </li>
+                  </ul>
+                  <ul class="skills__data">
+                      <li class="skills__name">
+                          <span class="skills__circle"></span> MONGODB
+                      </li>
+                      <li class="skills__name">
+                          <span class="skills__circle"></span> MYSQL
+                      </li>
+                      <li class="skills__name">
+                        <span class="skills__circle"></span> MICRO:BIT
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> ARDUINO
+                    </li>
+
+                  </ul>
+                  
+              </div>
+          </section>
+        </div>
+        <div class="resume__right">
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experiencia</h2>
+
+                <div class="experience__container bd-grid">
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">ALKEMY</h3>
+                        <span class="experience__company"
+                          >Abril 2022 - Actualidad | Content Leader Skill Up NODE</span
+                        >
+                        <p class="experience__description">Lider de equipo de contenidos Skill Up Node I</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">CODERHOUSE</h3>
+                        <span class="experience__company"
+                          >Diciembre 2021 - Actualidad | Profesor Desarrollo Web/Javascript</span
+                        >
+                        <p class="experience__description">Dictado de clases. Coordinación de equipo de tutores a cargo</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">GyEE - UTN</h3>
+                        <span class="experience__company"
+                          >Abril 2021 - Noviembre 2021 | Mentor de programación</span
+                        >
+                        <p class="experience__description">Clases de desarrollo web y javascript a adolescentes en Secundarias del Futuro.</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">SSTES - GCBA</h3>
+                        <span class="experience__company"
+                          >Febrero 2020 - Marzo 2022 | Mentor de programación</span
+                        >
+                        <p class="experience__description">Clases de programación en diferentes lenguajes en escuelas de nivel inicial y secundario.</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">Programa desde tu casa</h3>
+                        <span class="experience__company"
+                          >Junio 2020 - Julio 2020 | Profesor de Desarrollo web</span
+                        >
+                        <p class="experience__description">Dictado de Curso intensivo de HTML y CSS.</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">Ideas From Heaven</h3>
+                        <span class="experience__company"
+                          >Enero 2015 - Actualidad | Desarrollador web</span
+                        >
+                        <p class="experience__description">Diseño de sitios web y aplicaciones web</p>
+                      </div>
+                    </div>
+                    <div class="experience__content">
+                      <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <!-- <span class="experience__line"></span> -->
+                      </div>
+                      <div class="experience__data bd-grid">
+                        <h3 class="experience__title">SIP Producciones</h3>
+                        <span class="experience__company">Enero 2010 - Abril 2015 | Productor</span>
+                        <p class="experience__description">Organización y producción de eventos.
+                        Planificación y control de la ejecución de las diferentes tareas necesarias para el evento. Colaboración directa con el gerente general.
+                        </p>
+                      </div>
+                    </div>
+                   
+            </section>
+            <section class="interests section" id="intereses">
+                <h2 class="section-title">INTERESES</h2>
+                <div class="interests__container bd-grid">
+                    <div class="interests__content">
+                        <i class='bx bx-headphone interests-icon' ></i>
+                        <span class="interests__name"></span>Música
+                    </div>    
+                    <div class="interests__content">
+                        <i class='bx bx-code-alt interests-icon' ></i>
+                        <span class="interests__name"></span>Programación
+                    </div>    
+                    <div class="interests__content">
+                        <i class='bx bxs-book-open interests-icon' ></i>
+                        <span class="interests__name"></span>Lectura
+                    </div>    
+                </div>
+            </section>
+        </div>
+      </div>
+    </main>
+<a href="#" class="scroll-top" id="scroll-top">
+    <i class='bx bxs-chevron-up scroll-icon'></i>
+</a>
+<script src="./js/html2pdf.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
