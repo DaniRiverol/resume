@@ -25,7 +25,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 const sections = document.querySelectorAll("section[id]");
 function scrollActive() {
-  const scrollY = window.pageYOffset;
+  const scrollY = window.scrollY;
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
@@ -67,9 +67,7 @@ const getCurrentTheme = () =>
 const getCurrentIcon = () =>
   themeButton.classList.contains(iconTheme) ? "bx-moon" : "bx-sun";
 
-// We validate if the user previously chose a topic
 if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
     darkTheme
   );
@@ -104,7 +102,7 @@ let opt = {
   filename: "CV_Daniel_Riverol.pdf",
   image: { type: "jpeg", quality: 0.98 },
   html2canvas: { scale: 4 },
-  jsPDF: { format: "a4", orientation: "portrait" },
+  jsPDF: { format: "A4", orientation: "portrait" },
 };
 
 function generateResume() {
